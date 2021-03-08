@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "parchy"
+version = "0.1.0"
+description = "Pete & Archy messing around"
+authors = ["Archy de Berker <archy.deberker@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.3"
+plotly = "^4.14.3"
+sklearn = "^0.0"
+jupyter = "^1.0.0"
+pdvega = "^0.1"
+matplotlib = "^3.3.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+black = "^20.8b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
